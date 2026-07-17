@@ -1,0 +1,155 @@
+@import "tailwindcss";
+
+@theme {
+  /* Colors — from Chapter 2 Design System */
+  --color-background: #0b1114;
+  --color-surface: #11191d;
+  --color-surface-alt: #161f24;
+  --color-accent-gold: #c89a4a;
+  --color-accent-gold-bright: #e0b968;
+  --color-text-primary: #f8f7f4;
+  --color-text-secondary: #b7b7b7;
+  --color-text-muted: #7a7f82;
+  --color-success: #5b8c6e;
+  --color-error: #b85c5c;
+
+  /* Fonts */
+  --font-display: var(--font-display), serif;
+  --font-body: var(--font-body), sans-serif;
+
+  /* Border radius */
+  --radius-sm: 8px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-full: 999px;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-text-primary);
+  font-family: var(--font-body);
+}
+
+h1, h2, h3, .font-display {
+  font-family: var(--font-display);
+}
+
+/* Glassmorphism panel — Chapter 2.4 */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.06);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(200, 154, 74, 0.15);
+  border-radius: var(--radius-md);
+  transition: border-color 0.3s ease, background 0.3s ease;
+}
+
+.glass-panel:hover {
+  border-color: rgba(200, 154, 74, 0.4);
+  background: rgba(255, 255, 255, 0.09);
+}
+
+/* Gold gradient — used on primary buttons */
+.gold-gradient {
+  background: linear-gradient(135deg, #c89a4a, #e0b968);
+}
+
+/* Smooth expo-out easing — Chapter 2.7 */
+.ease-luxury {
+  transition-timing-function: cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Hero scroll indicator animation */
+@keyframes scroll-line {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  50% {
+    transform: scaleY(1);
+    transform-origin: top;
+  }
+  51% {
+    transform-origin: bottom;
+  }
+  100% {
+    transform: scaleY(0);
+    transform-origin: bottom;
+  }
+}
+
+.animate-scroll-line {
+  animation: scroll-line 2s ease-in-out infinite;
+}
+
+/* Shimmer text — moving gold gradient for hero accent word */
+.shimmer-text {
+  background: linear-gradient(
+    90deg,
+    #c89a4a 0%,
+    #f4dfa8 25%,
+    #c89a4a 50%,
+    #f4dfa8 75%,
+    #c89a4a 100%
+  );
+  background-size: 200% auto;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: 200% center;
+  }
+  100% {
+    background-position: -200% center;
+  }
+}
+
+/* Premium stat card — subtle top accent + glow on hover */
+.stat-card {
+  position: relative;
+}
+
+.stat-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 12%;
+  right: 12%;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    rgba(200, 154, 74, 0.6),
+    transparent
+  );
+}
+
+.stat-card:hover {
+  box-shadow: 0 0 40px rgba(200, 154, 74, 0.12);
+}
+
+/* Film grain — subtle noise texture for cinematic depth */
+.film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  mix-blend-mode: overlay;
+}
+
+/* Floating CTA pulse ring */
+@keyframes cta-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.5;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+
+.animate-cta-pulse {
+  animation: cta-pulse 2.2s ease-out infinite;
+}
