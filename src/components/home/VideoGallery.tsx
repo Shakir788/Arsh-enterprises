@@ -9,19 +9,19 @@ const VIDEOS = [
   {
     title: "Invisible Grill Installation",
     views: "98.2K",
-    src: "/videos/gallery/reel-1.mp4",
+    src: "/videos/gallery/reel-1-min.mp4",
     poster: "/images/gallery/reel-1-poster.webp",
   },
   {
     title: "Balcony Transformation",
     views: "431K",
-    src: "/videos/gallery/reel-2.mp4",
+    src: "/videos/gallery/reel-2-min.mp4",
     poster: "/images/gallery/reel-2-poster.webp",
   },
   {
     title: "Honeycomb Net in Action",
     views: "12.4K",
-    src: "/videos/gallery/reel-3.mp4",
+    src: "/videos/gallery/reel-3-min.mp4",
     poster: "/images/gallery/reel-3-poster.webp",
   },
 ];
@@ -57,7 +57,7 @@ function VideoCard({
       onMouseLeave={handleLeave}
       className="glass-panel group relative aspect-[9/16] w-full overflow-hidden"
     >
-            <video
+      <video
         ref={videoRef}
         src={video.src}
         poster={video.poster}
