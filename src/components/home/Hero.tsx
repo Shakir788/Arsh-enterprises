@@ -43,7 +43,7 @@ export default function Hero() {
         muted
         loop
         playsInline
-        poster="/images/hero-poster.png"
+        poster="/images/hero-poster.webp"
         initial={{ scale: 1.15 }}
         animate={{ scale: 1 }}
         transition={{ duration: 8, ease: "easeOut" }}

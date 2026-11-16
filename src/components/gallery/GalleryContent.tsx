@@ -17,32 +17,32 @@ const PROJECTS = [
   {
     title: "Luxury Balcony Invisible Grill",
     category: "Invisible Grills",
-    image: "/images/gallery/gallery-1.png",
+    image: "/images/gallery/gallery-1.webp",
   },
   {
     title: "Floor-to-Ceiling Window Invisible Grill",
     category: "Invisible Grills",
-    image: "/images/gallery/gallery-2.png",
+    image: "/images/gallery/gallery-2.webp",
   },
   {
     title: "Sliding Mosquito Net",
     category: "Mosquito Nets",
-    image: "/images/gallery/gallery-3.png",
+    image: "/images/gallery/gallery-3.webp",
   },
   {
     title: "Honeycomb Mosquito Net",
     category: "Mosquito Nets",
-    image: "/images/gallery/gallery-4.png",
+    image: "/images/gallery/gallery-4.webp",
   },
   {
     title: "PVC Folding Partition Door",
     category: "PVC Folding Doors",
-    image: "/images/gallery/gallery-5.png",
+    image: "/images/gallery/gallery-5.webp",
   },
   {
     title: "Professional Installation",
     category: "Installation",
-    image: "/images/gallery/gallery-6.png",
+    image: "/images/gallery/gallery-6.webp",
   },
 ];
 

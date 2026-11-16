@@ -10,19 +10,19 @@ const VIDEOS = [
     title: "Invisible Grill Installation",
     views: "98.2K",
     src: "/videos/gallery/reel-1.mp4",
-    poster: "/images/gallery/reel-1-poster.png",
+    poster: "/images/gallery/reel-1-poster.webp",
   },
   {
     title: "Balcony Transformation",
     views: "431K",
     src: "/videos/gallery/reel-2.mp4",
-    poster: "/images/gallery/reel-2-poster.png",
+    poster: "/images/gallery/reel-2-poster.webp",
   },
   {
     title: "Honeycomb Net in Action",
     views: "12.4K",
     src: "/videos/gallery/reel-3.mp4",
-    poster: "/images/gallery/reel-3-poster.png",
+    poster: "/images/gallery/reel-3-poster.webp",
   },
 ];
 

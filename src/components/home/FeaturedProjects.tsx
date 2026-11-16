@@ -9,22 +9,22 @@ const PROJECTS = [
   {
     title: "High-Rise Apartment, Mira Road",
     product: "Invisible Grills",
-    image: "/images/projects/project-1.png",
+    image: "/images/projects/project-1.webp",
   },
   {
     title: "Luxury Balcony, Thane",
     product: "Pleated Mosquito Nets",
-    image: "/images/projects/project-2.png",
+    image: "/images/projects/project-2.webp",
   },
   {
     title: "Commercial Office, Mumbai",
     product: "PVC Folding Doors",
-    image: "/images/projects/project-3.png",
+    image: "/images/projects/project-3.webp",
   },
   {
     title: "Residential Complex, Mira Road East",
     product: "Honeycomb Mosquito Nets",
-    image: "/images/projects/project-4.png",
+    image: "/images/projects/project-4.webp",
   },
 ];
 

@@ -34,7 +34,7 @@ export default function InvisibleGrillsPage() {
       {/* Mini hero */}
       <section className="relative flex h-[70vh] min-h-[500px] items-end overflow-hidden">
         <Image
-          src="/images/services/invisible-grills.png"
+          src="/images/services/invisible-grills.webp"
           alt="Invisible Grills installation"
           fill
           className="object-cover"

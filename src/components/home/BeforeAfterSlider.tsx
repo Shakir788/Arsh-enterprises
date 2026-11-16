@@ -15,13 +15,13 @@ interface BeforeAfterPair {
 const PAIRS: BeforeAfterPair[] = [
   {
     title: "Balcony, Mira Road East",
-    before: "/images/before-after/pair-1-before.png",
-    after: "/images/before-after/pair-1-after.png",
+    before: "/images/before-after/pair-1-before.webp",
+    after: "/images/before-after/pair-1-after.webp",
   },
   {
     title: "Living Room Window, Thane",
-    before: "/images/before-after/pair-2-before.png",
-    after: "/images/before-after/pair-2-after.png",
+    before: "/images/before-after/pair-2-before.webp",
+    after: "/images/before-after/pair-2-after.webp",
   },
 ];
 

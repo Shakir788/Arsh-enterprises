@@ -12,25 +12,25 @@ const VARIANTS = [
     name: "Standard",
     description:
       "Fixed mosquito nets, custom fit to your window frame. The simplest, most affordable option.",
-    image: "/images/services/mosquito-nets.png",
+    image: "/images/services/mosquito-nets.webp",
   },
   {
     name: "Pleated",
     description:
       "Retractable, accordion-fold design — opens and closes smoothly, ideal for frequently used doors.",
-    image: "/images/services/pleated-nets.png",
+    image: "/images/services/pleated-nets.webp",
   },
   {
     name: "Sliding Window",
     description:
       "Built specifically for sliding window and door tracks — moves with your window, not against it.",
-    image: "/images/services/sliding-nets.png",
+    image: "/images/services/sliding-nets.webp",
   },
   {
     name: "Honeycomb",
     description:
       "Premium retractable mesh with a honeycomb fold pattern — our most refined option for modern homes.",
-    image: "/images/services/honeycomb-nets.png",
+    image: "/images/services/honeycomb-nets.webp",
   },
 ];
 
@@ -57,7 +57,7 @@ export default function MosquitoNetsPage() {
       {/* Mini hero */}
       <section className="relative flex h-[70vh] min-h-[500px] items-end overflow-hidden">
         <Image
-          src="/images/services/mosquito-nets.png"
+          src="/images/services/mosquito-nets.webp"
           alt="Mosquito Nets installation"
           fill
           className="object-cover"

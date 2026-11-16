@@ -30,7 +30,7 @@ export default function PvcDoorsPage() {
       {/* Mini hero */}
       <section className="relative flex h-[70vh] min-h-[500px] items-end overflow-hidden">
         <Image
-          src="/images/services/pvc-doors.png"
+          src="/images/services/pvc-doors.webp"
           alt="PVC Folding Doors installation"
           fill
           className="object-cover"

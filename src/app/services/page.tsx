@@ -12,19 +12,19 @@ const SERVICES = [
   {
     title: "Invisible Grills",
     tagline: "Safety that disappears into the view",
-    image: "/images/services/invisible-grills.png",
+    image: "/images/services/invisible-grills.webp",
     href: "/services/invisible-grills",
   },
   {
     title: "Mosquito Nets",
     tagline: "Standard, Pleated, Sliding & Honeycomb — all in one range",
-    image: "/images/services/mosquito-nets.png",
+    image: "/images/services/mosquito-nets.webp",
     href: "/services/mosquito-nets",
   },
   {
     title: "PVC Folding Doors",
     tagline: "Smart partitions for flexible spaces",
-    image: "/images/services/pvc-doors.png",
+    image: "/images/services/pvc-doors.webp",
     href: "/services/pvc-doors",
   },
 ];

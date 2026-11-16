@@ -66,7 +66,7 @@ export default function AboutContent() {
       >
         <motion.div style={{ y: imageY }} className="absolute inset-0 h-[130%] w-full">
           <Image
-            src="/images/about-installer.png"
+            src="/images/about-installer.webp"
             alt="Arsh Enterprises installation work"
             fill
             priority

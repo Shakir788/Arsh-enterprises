@@ -19,7 +19,7 @@ export default function About() {
           className="relative aspect-[4/5] w-full overflow-hidden rounded-lg"
         >
           <Image
-            src="/images/about-installer.png"
+            src="/images/about-installer.webp"
             alt="Arsh Enterprises installation work"
             fill
             className="object-cover"
