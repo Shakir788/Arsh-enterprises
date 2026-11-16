@@ -57,13 +57,14 @@ function VideoCard({
       onMouseLeave={handleLeave}
       className="glass-panel group relative aspect-[9/16] w-full overflow-hidden"
     >
-      <video
+            <video
         ref={videoRef}
         src={video.src}
         poster={video.poster}
         muted
         loop
         playsInline
+        preload="none"
         className="h-full w-full object-cover"
       />
 
